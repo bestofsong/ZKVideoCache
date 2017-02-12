@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ZKVideoCache_Example' do
+  pod 'ZKVideoCache', :path => '../'
+
+  target 'ZKVideoCache_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

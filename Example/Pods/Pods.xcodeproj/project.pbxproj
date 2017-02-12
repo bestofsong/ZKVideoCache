@@ -1,0 +1,1795 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03AA035AB2A9F02ECECFA93457B8DE8F /* GCDWebServerDataResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C42EADFFFA2F5421C5B0D6026DE7C65 /* GCDWebServerDataResponse.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		0596680FB743918F21EF9DFE8CF0B0AE /* DDDispatchQueueLogFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = C3661098F4B78CDDDCA36B1FC9AAE9DC /* DDDispatchQueueLogFormatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		06DB5B0AA114350A2B95A8B5314E1F28 /* FMDB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A0B7356554815D6282BCD7AC5303C58 /* FMDB.framework */; };
+		0A2BB983ACF88C742F34883294ED21C2 /* ZKNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6679AC4BCE550ECE9BE7C958E131FB8A /* ZKNetwork.framework */; };
+		0B15BA5156B6B134DAFC2A379A8EBF20 /* DDFileLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CD446426194F26A34FC993B730E451D /* DDFileLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0F58A25FF89A392AF5FBBCC5711E1A11 /* ZKNetwork-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C644FCA337A3874BF6207BFB85CD4775 /* ZKNetwork-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		18FD0193220144E842CA0699DB14C0F4 /* Pods-ZKVideoCache_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FF3DEA56076DB727AC00DF326B36C63 /* Pods-ZKVideoCache_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		196CF3066E15849E89BA8A75C013026F /* ZKVideoCacheManager+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = F371553850B02DE597D94C3BA3A48733 /* ZKVideoCacheManager+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22554065FA07F1BFE5308A685394CB12 /* FMDatabaseQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = B3474731DD2D0E2599B668B5825C200D /* FMDatabaseQueue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		226E6A6E6B7FCE8629500B86769CB6A7 /* DDMultiFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 45BAED04CB9AEA05476928ACDF05FD17 /* DDMultiFormatter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		25C087DFF271E3D0012DF9AD13843955 /* CocoaLumberjack-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6324583B5BAC499598867691A5EA34B4 /* CocoaLumberjack-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2D8F573A37C3BCD9AB5AFC6BAFE76F4C /* ZKNetwork-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 05FC71C3BD55C4D6A60C2AE7F08D5D1B /* ZKNetwork-dummy.m */; };
+		2E789D8DA13B4E65ACD66E020732E79A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89F88FB2C567830EC23FA601C991737A /* Foundation.framework */; };
+		33D977AC6CF0D4382D86E9B8C7A5D79F /* ZKVideoCache-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BB4480BD8CB8CDF0891671221CD5F18 /* ZKVideoCache-dummy.m */; };
+		36B7EFD99C52F961A48656DB5FCEE9D5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89F88FB2C567830EC23FA601C991737A /* Foundation.framework */; };
+		37F097E2269EF1BD238AD7449D796445 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C893DD22387D538DDA1E09600C2F30D /* FMDatabase.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		3E43906B70EB01C06F3AE17008B853B9 /* FMResultSet.h in Headers */ = {isa = PBXBuildFile; fileRef = E563D75CA6ACD33DF07F94E70B972F0A /* FMResultSet.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3F2EA5B1B393A624A19F39E5B182FFD1 /* GCDWebServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 906224E8A5A4E76BCB85D8AF6D0F6CFF /* GCDWebServer.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		41339E34A74D06042FC3D33173F1D14B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89F88FB2C567830EC23FA601C991737A /* Foundation.framework */; };
+		447CD4AF8B457734E735475284C01DF1 /* FMDB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A0B7356554815D6282BCD7AC5303C58 /* FMDB.framework */; };
+		46BCF6AD09D0E803C4668842D2EF119D /* DDLegacyMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = A8FF96F1573AA6C2ACCA00D3D9462976 /* DDLegacyMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4C317EE3A9B51BAD68D6C9158DD47ED5 /* Pods-ZKVideoCache_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C067F7DEE1C561B40C84D82F5AE10BE /* Pods-ZKVideoCache_Tests-dummy.m */; };
+		50B102FC5E3BF50B4B463849F2704C77 /* ZKNetwork+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 678EF1FEC2BEC519A1AFFE2E85AC991D /* ZKNetwork+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		50C496B6A14E982C5C09CC54DE00F90B /* DDMultiFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FF3240279B656496DEEEC00C1CE3BCD /* DDMultiFormatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		53D4700D729CB4E20F430F66E528E866 /* DDDispatchQueueLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = E6EE80107C8EBDAE2E591AD287B17DD3 /* DDDispatchQueueLogFormatter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		54D816D2A79FC15BE58040F4F82A2E21 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89F88FB2C567830EC23FA601C991737A /* Foundation.framework */; };
+		55ABA070EE224BDFAED54A74B7389704 /* DDASLLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 09447A726C435E036380E8A5C0FB203C /* DDASLLogger.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		56BBCA9C6B57445D794ED9A11B6F0BBF /* ZKDownloadRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = C3792210BB9943CAA57FD548F03D9523 /* ZKDownloadRecord.m */; };
+		5C0E30DB35EF26B32979C2FD46D16588 /* GCDWebServerResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = B0FB1D7C13E4E888723FD8A33238253E /* GCDWebServerResponse.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		5F8D75561BFCF43B6E23EC437D73D19F /* DDASLLogCapture.h in Headers */ = {isa = PBXBuildFile; fileRef = 51C1BED1FB4B8A7F232546CA1E36BFDF /* DDASLLogCapture.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		61343920264EF7F860688D700C7B3F70 /* GCDWebServerRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 0102C07CAA3CA327D475159C060842EB /* GCDWebServerRequest.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		62DE4D4D57A20310148A125545E2E087 /* Pods-ZKVideoCache_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 84730FFEC67E5F9B5550F29CD52A3537 /* Pods-ZKVideoCache_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6312228BE75C943692BC2640ECC09F84 /* CocoaLumberjack-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FE3F2F5F3E375070C628EF3A1CF55041 /* CocoaLumberjack-dummy.m */; };
+		6563EFCFBD7130893EB25698178F13E6 /* DDLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 98ABD7B540BD3D94F09BC9B1C1CD8FEB /* DDLog.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		660DD1E1BD66C680721BF5216AAD4924 /* DDASLLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DC29686C55ECA5F98E74716585167B0 /* DDASLLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		68B01D224A06CE1B9435E47645C1E577 /* CocoaLumberjack.h in Headers */ = {isa = PBXBuildFile; fileRef = BEBB12B0D322EAD427B555796EAE412A /* CocoaLumberjack.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6B80C04509C2C2D5835E7BA7DAA79149 /* GCDWebServerStreamedResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = EE7E81B47D9860F1111EAE950F08F63C /* GCDWebServerStreamedResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6CAAAB9FE2D2F25371C7C5FB1BB18FBC /* RequestUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = F946EBA8F99D976A3469DD678DBB02B7 /* RequestUtils.m */; };
+		6DFB28BAA5F95ED3DDA860977D11CA52 /* ZKNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = BA3B108CABDD8AF58C692C925CA2DECC /* ZKNetwork.m */; };
+		6F5CDC93F4A4C36A97FE5E580F362DD4 /* RequestUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = F598C5C6996AEEAF9B9B1AA042106509 /* RequestUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F92D6E3BAFB673C53FE656CFF5D79D5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89F88FB2C567830EC23FA601C991737A /* Foundation.framework */; };
+		722A5AF46F8C5D56564E86D84F29347E /* GCDWebServerRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 65CEEAADFDACECB778DEB5DDEDA529E3 /* GCDWebServerRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		72F63C2F0967EE8CDF957D21F459EA3F /* DDTTYLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EC70BF7288E70E62D712121B949B635 /* DDTTYLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		75FB440FD0DD7F3C2D345BDFA15B9658 /* DDLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 70FEC8DDD826F6B8FE930CA07A497324 /* DDLog.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		774046B19FF9BD07C24CA54D27EFBDF5 /* ZKVideoCacheManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 450179A0FA9B899BE7F9D732201E28C8 /* ZKVideoCacheManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		77FF7FD02536F0ADD5A223C21C5DD9EA /* DDAbstractDatabaseLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 4354D1310416D8D73EBB1622ECF8E1D4 /* DDAbstractDatabaseLogger.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		79CB55AE78BDCB56629F5153C164227A /* CocoaLumberjack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 997AF79E2223B41B2CB49E128AE01B1A /* CocoaLumberjack.framework */; };
+		7DF86B68F393376CBBB3A9E46E40F5F2 /* GCDWebServer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 951EFEBA3D94ED28DC02AF9665EDF927 /* GCDWebServer.framework */; };
+		7E7FD57AF138183D9FF3658B84E6C0A0 /* GCDWebServerURLEncodedFormRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 72A13B497952690B3AEB800B57CDD1F8 /* GCDWebServerURLEncodedFormRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7FAF962B8C7835FE24B87E0491ABD3BF /* GCDWebServerDataRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 71C601C237ED0005B44BAA66B8BB7994 /* GCDWebServerDataRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		84B05EB5D650F380CD272A0FC247513E /* GCDWebServerFileRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 54E8F4CF1861DBE94E8695E9AE423E64 /* GCDWebServerFileRequest.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		86A1A0774A8186468FBF42B5AA593DEF /* ZKNetwork.h in Headers */ = {isa = PBXBuildFile; fileRef = B69AEDBB5EA15F38A418F880CD4BDBB5 /* ZKNetwork.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		87ECA447DB887426665260651B7F147E /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 343C24B97C68C65DFD498F5709A24C1B /* FMResultSet.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		881B705B962BA5F308D1AB7A65ECB58B /* DDTTYLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = C016169A582E17238B5D0789AC623DED /* DDTTYLogger.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		8F76C5F37E8242B88EF6C49529A86943 /* DDASLLogCapture.m in Sources */ = {isa = PBXBuildFile; fileRef = 13150B29C3E14D797A6337DC7092DC48 /* DDASLLogCapture.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		925011C197386D906E3570BA11CC424D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89F88FB2C567830EC23FA601C991737A /* Foundation.framework */; };
+		92CC6A94BFD4398763FA40E2EE01630A /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD12272276745A97F91FD58EA3A3152B /* MobileCoreServices.framework */; };
+		93F748D723B8A26F9F86DEE7517ECE3E /* GCDWebServerDataResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 721AECEB2A4B88829EBD56C7534F6B9E /* GCDWebServerDataResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95E024141B195F4A94AC8717C8D470E9 /* DDFileLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F922A72469F0B6A5D79F15D1F4E3E83 /* DDFileLogger.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		96E70B43FC04BC99AED1BBD4FB1D7581 /* FMDB-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 91B11EE41A24E29342DE7DE4FDE6CBA7 /* FMDB-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		97AFC02B2E3ED5306BC7029A85AAEFDF /* DDContextFilterLogFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = DF80A42792F2739B8C7D90A4B95A8FC0 /* DDContextFilterLogFormatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B8D84996694C541CD3434386E0A081A /* FMDatabasePool.h in Headers */ = {isa = PBXBuildFile; fileRef = 27C9CDAC2C507412DAE3738D8FC4FB6B /* FMDatabasePool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C11A290C9C5866A185A54F1EC04E2BB /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 925AEDD0C3E91703C2773E39A0216518 /* FMDatabaseAdditions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		9E63C3B33B3E8242FC45F6DB004A7020 /* GCDWebServerStreamedResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = AF434A3B50D653ADB56016EC46F91DD1 /* GCDWebServerStreamedResponse.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		9EE8DF0E144E2D89D7FAD579E45E051F /* DDAssertMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = FE3A9520FCFC20D7851AF37E3FE467DE /* DDAssertMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A014969FB30EEED23C3D76BD4D65C78C /* DDLog+LOGV.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BC0626707143028B52F50B2F579C216 /* DDLog+LOGV.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A0C915F6C467A83C3E77E203EF5B33BA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89F88FB2C567830EC23FA601C991737A /* Foundation.framework */; };
+		A1B5D80A8998311B8C9043E6942925E6 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = D2B69041EB908AF7E23DA1D9CFD0DE99 /* FMDatabaseQueue.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		A34A12C16FC6222FE2857C2E73B97E30 /* GCDWebServerMultiPartFormRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA79E3E8240E0B94571B08C521F63ED /* GCDWebServerMultiPartFormRequest.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		A548833BE5FAD40830428F36E77D0F52 /* FMDatabaseAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 80747AD7F71C5B64AFF6D186D381C4D4 /* FMDatabaseAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A7DB03F2E311A12C08C6ABA437DA5D7D /* GCDWebServerHTTPStatusCodes.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E7586D79E344C66D5920F02B98E0C11 /* GCDWebServerHTTPStatusCodes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B0ED1E3D4F2B348DFD6C5CAC6A971EBD /* GCDWebServerConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = F8735FE984FA763889555B314A7569A9 /* GCDWebServerConnection.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		B4911B17CF238F3346307208CB00AEB2 /* GCDWebServerFileRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 68DA33DD782EE3C7A5FCCC96345D5CCF /* GCDWebServerFileRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B89AAFF661E1BCBA3D005334549968B2 /* GCDWebServerDataRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EC24B67BB71127378D1EE42F38E832E /* GCDWebServerDataRequest.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		B9202BF10473745D3B8B930E633707E9 /* ZKVideoCache-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ADD2A0F171668429C80B0EA4C4AA9DB6 /* ZKVideoCache-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BEC201BABAE91076042A1E129F4DA3C3 /* GCDWebServerConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D30F0F50A0CA2AC367B46A9917A8474 /* GCDWebServerConnection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BF2F9CB14A46386124DA587D5601A8CF /* GCDWebServerFileResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F8DDC0FA62ADC62FF4BE04FBE3727B6 /* GCDWebServerFileResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BFFD83AC2259740A5A744A0135D23837 /* DDLogMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 84AC6ECD395F534DC9075498CF432AA5 /* DDLogMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C2FAA3048F5793B589945BD8D35858FF /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BE89E6A8052A08E97626280723F51E7 /* CFNetwork.framework */; };
+		C605A44DF96E7FCACF7D6E37B62F795D /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 782343DC643360A9368D279545474C46 /* FMDatabasePool.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		C7C59EABCA3DDF9027315567A86633C9 /* GCDWebServer.h in Headers */ = {isa = PBXBuildFile; fileRef = A97354BC5BA7B964D6D7422FECCFC12F /* GCDWebServer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C8A6A53A60FBBB06D21265EDCE7F4E68 /* GCDWebServerErrorResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 80580E66373940A023B95DB7D40EBC9C /* GCDWebServerErrorResponse.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		C8D5BF6885F6726D386BEE8ABBC29BEA /* GCDWebServerURLEncodedFormRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4988A2410225DC2A2AB74F2686F0E6DF /* GCDWebServerURLEncodedFormRequest.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		CCB74062CE0F4B8E5B7483599BC398DA /* FMDB.h in Headers */ = {isa = PBXBuildFile; fileRef = A36D3E7C19EBA1A4F3AD149CF5DBBB0C /* FMDB.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CF7A3FE1CA10A986288F786B2A7E9054 /* GCDWebServer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E9F258B1F9D62B95F3541B87780C6C1 /* GCDWebServer-dummy.m */; };
+		D4FB751FC66D7AD3FC89BC4F060D18C4 /* Pods-ZKVideoCache_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ABD6FFA19F93B9F6E27E50EE7178535 /* Pods-ZKVideoCache_Example-dummy.m */; };
+		D5991941DC41DDDDDACAE0B5D47A4639 /* FMDB-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 935F84961593F40596A8D3F0C9425823 /* FMDB-dummy.m */; };
+		D6CB3B96FE8AE0307F1F8959E648056C /* GCDWebServerMultiPartFormRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = B9D47DE7E1850B78F39FF8B0BAB562C0 /* GCDWebServerMultiPartFormRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DC031CF0E61CC9BB8CA74D347D6AF8AB /* GCDWebServerPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = EB84C41DE711DEF07604B30F47CEF68F /* GCDWebServerPrivate.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		DC09F868362D0A2A04B9F976EA736327 /* GCDWebServerErrorResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = D0073796D3CCBDE9155B0968A186D5E8 /* GCDWebServerErrorResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE59D3775F15714D2A4D6E0493982534 /* GCDWebServerFunctions.h in Headers */ = {isa = PBXBuildFile; fileRef = 53FB45E747E837101CAB74BC8D5BD7D1 /* GCDWebServerFunctions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E242E473DECC637748E5FD2DCAB11845 /* DDAbstractDatabaseLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = DC2537510074E1DC553B6F26F44162AC /* DDAbstractDatabaseLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E7DBE3CCDFDD8BD8A27A07A91477A7C0 /* ZKDownloadRecord.h in Headers */ = {isa = PBXBuildFile; fileRef = 4642B56BB853F47E8F21181320BFFF4B /* ZKDownloadRecord.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E9FA66200123610C2387FF3196460246 /* GCDWebServerResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 97F7A0F0F1941ADEE343AEF797E2527D /* GCDWebServerResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EBCDD16FC551D315235519D6B15F712B /* GCDWebServerFileResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A62EF0EAE9C04BC479CA80B179D2DB /* GCDWebServerFileResponse.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		EE37FA2370B09C7BA3E976804EE5690B /* ZKVideoCacheManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E92CFF1D69C5885B960E1487C2026126 /* ZKVideoCacheManager.m */; };
+		F11FAB91014130EE233A3429439D38D7 /* FMDatabase.h in Headers */ = {isa = PBXBuildFile; fileRef = CF264B5543AD5A848B8611D1A4EF77DF /* FMDatabase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F22E59FBB48937FB7875DBDB29A42C3B /* DDContextFilterLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9837AF5EDB14971EE159B0844896DBF9 /* DDContextFilterLogFormatter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		F47A221906EF7FC382878E8324D04F73 /* CocoaLumberjack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 997AF79E2223B41B2CB49E128AE01B1A /* CocoaLumberjack.framework */; };
+		F6D39919E7A93EF730A42C5454FE14DA /* GCDWebServer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D3591A86169EB7293B435565F9C3C81 /* GCDWebServer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF00AE3097B2C6EE01B9F6D9442F1728 /* GCDWebServerFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 75423AFEA7272D49BA69E6DB5977DAEB /* GCDWebServerFunctions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4970473E9A7B3524496844C2066266FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C45AFEB1922578492A941A21FBC28C9;
+			remoteInfo = ZKVideoCache;
+		};
+		62F449C22A3FD118BAFD871DA2422A04 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 416B388906DEFAC81F0676F277AC9058;
+			remoteInfo = CocoaLumberjack;
+		};
+		67B11498244F6644444D62574A9F2640 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 416B388906DEFAC81F0676F277AC9058;
+			remoteInfo = CocoaLumberjack;
+		};
+		888F84FE5459D924AC665713B802D100 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1252D2FE5A3F0266E8959BB670344352;
+			remoteInfo = GCDWebServer;
+		};
+		A5F9544EBCBF6ECB9375D0553D116EA6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 251BAD17812F7EBF6532EACF66F941C3;
+			remoteInfo = FMDB;
+		};
+		B6ABC3F818B4DA06979835E01D6454CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 416B388906DEFAC81F0676F277AC9058;
+			remoteInfo = CocoaLumberjack;
+		};
+		BD92F708338707B66DAB6DA0E3B07B3B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 251BAD17812F7EBF6532EACF66F941C3;
+			remoteInfo = FMDB;
+		};
+		C23D23C3EB7A616587C05C9ED7276F95 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDD8E7653DE13FE89BB8C451EA72BB8D;
+			remoteInfo = ZKNetwork;
+		};
+		CF30041B61841CB97269F54FFA31690B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 251BAD17812F7EBF6532EACF66F941C3;
+			remoteInfo = FMDB;
+		};
+		CF623BAF72A3821546F42DCE4433C2CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1252D2FE5A3F0266E8959BB670344352;
+			remoteInfo = GCDWebServer;
+		};
+		D22F1E3189FE28C5F93BB96B306E8BD9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDD8E7653DE13FE89BB8C451EA72BB8D;
+			remoteInfo = ZKNetwork;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0102C07CAA3CA327D475159C060842EB /* GCDWebServerRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerRequest.m; path = GCDWebServer/Core/GCDWebServerRequest.m; sourceTree = "<group>"; };
+		0551CB96A2D041A3D18689F958E24789 /* ZKNetwork.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = ZKNetwork.modulemap; sourceTree = "<group>"; };
+		05FC71C3BD55C4D6A60C2AE7F08D5D1B /* ZKNetwork-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZKNetwork-dummy.m"; sourceTree = "<group>"; };
+		09447A726C435E036380E8A5C0FB203C /* DDASLLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDASLLogger.m; path = Classes/DDASLLogger.m; sourceTree = "<group>"; };
+		0E9F258B1F9D62B95F3541B87780C6C1 /* GCDWebServer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GCDWebServer-dummy.m"; sourceTree = "<group>"; };
+		10E5CCCB801487F45F68CEBA31E4B813 /* CocoaLumberjack.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CocoaLumberjack.xcconfig; sourceTree = "<group>"; };
+		125D1854AA2CFC03821F8DC5E55ED804 /* ZKVideoCache.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = ZKVideoCache.modulemap; sourceTree = "<group>"; };
+		13150B29C3E14D797A6337DC7092DC48 /* DDASLLogCapture.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDASLLogCapture.m; path = Classes/DDASLLogCapture.m; sourceTree = "<group>"; };
+		150F23D5987F5A131C75641E5C4540C8 /* Pods-ZKVideoCache_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZKVideoCache_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1C42EADFFFA2F5421C5B0D6026DE7C65 /* GCDWebServerDataResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerDataResponse.m; path = GCDWebServer/Responses/GCDWebServerDataResponse.m; sourceTree = "<group>"; };
+		1CD446426194F26A34FC993B730E451D /* DDFileLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDFileLogger.h; path = Classes/DDFileLogger.h; sourceTree = "<group>"; };
+		1D30F0F50A0CA2AC367B46A9917A8474 /* GCDWebServerConnection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerConnection.h; path = GCDWebServer/Core/GCDWebServerConnection.h; sourceTree = "<group>"; };
+		26F1231CF5390411FD9D19AC223C849C /* ZKVideoCache-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZKVideoCache-prefix.pch"; sourceTree = "<group>"; };
+		27C9CDAC2C507412DAE3738D8FC4FB6B /* FMDatabasePool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabasePool.h; path = src/fmdb/FMDatabasePool.h; sourceTree = "<group>"; };
+		2AF9B822DE0DC6DC65263A7562814498 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DBBB6FC8FBD765334F34A92A10A43FA /* GCDWebServer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GCDWebServer.xcconfig; sourceTree = "<group>"; };
+		2E7586D79E344C66D5920F02B98E0C11 /* GCDWebServerHTTPStatusCodes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerHTTPStatusCodes.h; path = GCDWebServer/Core/GCDWebServerHTTPStatusCodes.h; sourceTree = "<group>"; };
+		343C24B97C68C65DFD498F5709A24C1B /* FMResultSet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMResultSet.m; path = src/fmdb/FMResultSet.m; sourceTree = "<group>"; };
+		3BB4480BD8CB8CDF0891671221CD5F18 /* ZKVideoCache-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZKVideoCache-dummy.m"; sourceTree = "<group>"; };
+		3D1D69B37B39D15FB5DE7529B3EE1CA1 /* FMDB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FMDB.framework; path = FMDB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4354D1310416D8D73EBB1622ECF8E1D4 /* DDAbstractDatabaseLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDAbstractDatabaseLogger.m; path = Classes/DDAbstractDatabaseLogger.m; sourceTree = "<group>"; };
+		450179A0FA9B899BE7F9D732201E28C8 /* ZKVideoCacheManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZKVideoCacheManager.h; sourceTree = "<group>"; };
+		45BAED04CB9AEA05476928ACDF05FD17 /* DDMultiFormatter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDMultiFormatter.m; path = Classes/Extensions/DDMultiFormatter.m; sourceTree = "<group>"; };
+		4642B56BB853F47E8F21181320BFFF4B /* ZKDownloadRecord.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZKDownloadRecord.h; path = ZKNetwork/Classes/ZKDownloadRecord.h; sourceTree = "<group>"; };
+		47DE40598AE93EA0A0D39DE8A618199C /* FMDB-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FMDB-prefix.pch"; sourceTree = "<group>"; };
+		4988A2410225DC2A2AB74F2686F0E6DF /* GCDWebServerURLEncodedFormRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerURLEncodedFormRequest.m; path = GCDWebServer/Requests/GCDWebServerURLEncodedFormRequest.m; sourceTree = "<group>"; };
+		4C067F7DEE1C561B40C84D82F5AE10BE /* Pods-ZKVideoCache_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZKVideoCache_Tests-dummy.m"; sourceTree = "<group>"; };
+		4DC29686C55ECA5F98E74716585167B0 /* DDASLLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDASLLogger.h; path = Classes/DDASLLogger.h; sourceTree = "<group>"; };
+		4EC70BF7288E70E62D712121B949B635 /* DDTTYLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDTTYLogger.h; path = Classes/DDTTYLogger.h; sourceTree = "<group>"; };
+		51C1BED1FB4B8A7F232546CA1E36BFDF /* DDASLLogCapture.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDASLLogCapture.h; path = Classes/DDASLLogCapture.h; sourceTree = "<group>"; };
+		53FB45E747E837101CAB74BC8D5BD7D1 /* GCDWebServerFunctions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerFunctions.h; path = GCDWebServer/Core/GCDWebServerFunctions.h; sourceTree = "<group>"; };
+		54E8F4CF1861DBE94E8695E9AE423E64 /* GCDWebServerFileRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerFileRequest.m; path = GCDWebServer/Requests/GCDWebServerFileRequest.m; sourceTree = "<group>"; };
+		596BBC64A6257F8621426B4C01DB01E0 /* FMDB.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = FMDB.modulemap; sourceTree = "<group>"; };
+		5ABD6FFA19F93B9F6E27E50EE7178535 /* Pods-ZKVideoCache_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZKVideoCache_Example-dummy.m"; sourceTree = "<group>"; };
+		5BE89E6A8052A08E97626280723F51E7 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
+		5EC24B67BB71127378D1EE42F38E832E /* GCDWebServerDataRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerDataRequest.m; path = GCDWebServer/Requests/GCDWebServerDataRequest.m; sourceTree = "<group>"; };
+		5F922A72469F0B6A5D79F15D1F4E3E83 /* DDFileLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDFileLogger.m; path = Classes/DDFileLogger.m; sourceTree = "<group>"; };
+		6324583B5BAC499598867691A5EA34B4 /* CocoaLumberjack-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaLumberjack-umbrella.h"; sourceTree = "<group>"; };
+		65CEEAADFDACECB778DEB5DDEDA529E3 /* GCDWebServerRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerRequest.h; path = GCDWebServer/Core/GCDWebServerRequest.h; sourceTree = "<group>"; };
+		6679AC4BCE550ECE9BE7C958E131FB8A /* ZKNetwork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZKNetwork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		678EF1FEC2BEC519A1AFFE2E85AC991D /* ZKNetwork+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ZKNetwork+Private.h"; path = "ZKNetwork/Classes/ZKNetwork+Private.h"; sourceTree = "<group>"; };
+		68DA33DD782EE3C7A5FCCC96345D5CCF /* GCDWebServerFileRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerFileRequest.h; path = GCDWebServer/Requests/GCDWebServerFileRequest.h; sourceTree = "<group>"; };
+		6BC0626707143028B52F50B2F579C216 /* DDLog+LOGV.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "DDLog+LOGV.h"; path = "Classes/DDLog+LOGV.h"; sourceTree = "<group>"; };
+		6D7BE88426D56B617617A5720AAAA5E8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6DFA9AE23F994C9AFD5D4EB5C305CBF8 /* ZKNetwork-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZKNetwork-prefix.pch"; sourceTree = "<group>"; };
+		70FEC8DDD826F6B8FE930CA07A497324 /* DDLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDLog.h; path = Classes/DDLog.h; sourceTree = "<group>"; };
+		71C601C237ED0005B44BAA66B8BB7994 /* GCDWebServerDataRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerDataRequest.h; path = GCDWebServer/Requests/GCDWebServerDataRequest.h; sourceTree = "<group>"; };
+		721AECEB2A4B88829EBD56C7534F6B9E /* GCDWebServerDataResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerDataResponse.h; path = GCDWebServer/Responses/GCDWebServerDataResponse.h; sourceTree = "<group>"; };
+		72A13B497952690B3AEB800B57CDD1F8 /* GCDWebServerURLEncodedFormRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerURLEncodedFormRequest.h; path = GCDWebServer/Requests/GCDWebServerURLEncodedFormRequest.h; sourceTree = "<group>"; };
+		75423AFEA7272D49BA69E6DB5977DAEB /* GCDWebServerFunctions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerFunctions.m; path = GCDWebServer/Core/GCDWebServerFunctions.m; sourceTree = "<group>"; };
+		782343DC643360A9368D279545474C46 /* FMDatabasePool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabasePool.m; path = src/fmdb/FMDatabasePool.m; sourceTree = "<group>"; };
+		7C893DD22387D538DDA1E09600C2F30D /* FMDatabase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabase.m; path = src/fmdb/FMDatabase.m; sourceTree = "<group>"; };
+		7D3591A86169EB7293B435565F9C3C81 /* GCDWebServer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GCDWebServer-umbrella.h"; sourceTree = "<group>"; };
+		7DB9E19A226F4124B06994C07C9B3B07 /* ZKVideoCache.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ZKVideoCache.framework; path = ZKVideoCache.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		80580E66373940A023B95DB7D40EBC9C /* GCDWebServerErrorResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerErrorResponse.m; path = GCDWebServer/Responses/GCDWebServerErrorResponse.m; sourceTree = "<group>"; };
+		80747AD7F71C5B64AFF6D186D381C4D4 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabaseAdditions.h; path = src/fmdb/FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		80FD99FEC1190C3CD54A427A9FC4A1BB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81D1B0B0FDA5A22AD8C025380ACCB8D4 /* Pods-ZKVideoCache_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ZKVideoCache_Tests.modulemap"; sourceTree = "<group>"; };
+		8462BE600FB6694A4DF1542804AA83D2 /* Pods-ZKVideoCache_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZKVideoCache_Example-resources.sh"; sourceTree = "<group>"; };
+		84730FFEC67E5F9B5550F29CD52A3537 /* Pods-ZKVideoCache_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZKVideoCache_Tests-umbrella.h"; sourceTree = "<group>"; };
+		849168B8648CA77D8247C01D327AA585 /* Pods-ZKVideoCache_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZKVideoCache_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		84AC6ECD395F534DC9075498CF432AA5 /* DDLogMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDLogMacros.h; path = Classes/DDLogMacros.h; sourceTree = "<group>"; };
+		894469E86E8CBB2A94EC83DC27A80416 /* ZKVideoCache.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZKVideoCache.xcconfig; sourceTree = "<group>"; };
+		89F88FB2C567830EC23FA601C991737A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		8A93CCD55AB3D1FDACDADE10B8B8CE7D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B660BAA8028BD9DC46F881FE336D5AD /* CocoaLumberjack.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = CocoaLumberjack.modulemap; sourceTree = "<group>"; };
+		8F8DDC0FA62ADC62FF4BE04FBE3727B6 /* GCDWebServerFileResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerFileResponse.h; path = GCDWebServer/Responses/GCDWebServerFileResponse.h; sourceTree = "<group>"; };
+		8FF3DEA56076DB727AC00DF326B36C63 /* Pods-ZKVideoCache_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZKVideoCache_Example-umbrella.h"; sourceTree = "<group>"; };
+		906224E8A5A4E76BCB85D8AF6D0F6CFF /* GCDWebServer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServer.m; path = GCDWebServer/Core/GCDWebServer.m; sourceTree = "<group>"; };
+		91B11EE41A24E29342DE7DE4FDE6CBA7 /* FMDB-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FMDB-umbrella.h"; sourceTree = "<group>"; };
+		925AEDD0C3E91703C2773E39A0216518 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseAdditions.m; path = src/fmdb/FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		9339C7EC5056A71F7286BB001CE20AD0 /* GCDWebServer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GCDWebServer.framework; path = GCDWebServer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		935F84961593F40596A8D3F0C9425823 /* FMDB-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FMDB-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94D0754D98339178551279CABDAB2CE4 /* ZKNetwork.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZKNetwork.xcconfig; sourceTree = "<group>"; };
+		951EFEBA3D94ED28DC02AF9665EDF927 /* GCDWebServer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GCDWebServer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		97F7A0F0F1941ADEE343AEF797E2527D /* GCDWebServerResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerResponse.h; path = GCDWebServer/Core/GCDWebServerResponse.h; sourceTree = "<group>"; };
+		9837AF5EDB14971EE159B0844896DBF9 /* DDContextFilterLogFormatter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDContextFilterLogFormatter.m; path = Classes/Extensions/DDContextFilterLogFormatter.m; sourceTree = "<group>"; };
+		98ABD7B540BD3D94F09BC9B1C1CD8FEB /* DDLog.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDLog.m; path = Classes/DDLog.m; sourceTree = "<group>"; };
+		997AF79E2223B41B2CB49E128AE01B1A /* CocoaLumberjack.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CocoaLumberjack.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A0B7356554815D6282BCD7AC5303C58 /* FMDB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FMDB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B566B6A6E6E844764A18B5F51175FEA /* FMDB.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FMDB.xcconfig; sourceTree = "<group>"; };
+		9B599AE5FEF434FDBBD78977784C016D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E3106CA93965F1E31A24BE6226AAA31 /* Pods-ZKVideoCache_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ZKVideoCache_Example.modulemap"; sourceTree = "<group>"; };
+		9FF3240279B656496DEEEC00C1CE3BCD /* DDMultiFormatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDMultiFormatter.h; path = Classes/Extensions/DDMultiFormatter.h; sourceTree = "<group>"; };
+		A36D3E7C19EBA1A4F3AD149CF5DBBB0C /* FMDB.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDB.h; path = src/fmdb/FMDB.h; sourceTree = "<group>"; };
+		A8FF96F1573AA6C2ACCA00D3D9462976 /* DDLegacyMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDLegacyMacros.h; path = Classes/DDLegacyMacros.h; sourceTree = "<group>"; };
+		A97354BC5BA7B964D6D7422FECCFC12F /* GCDWebServer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServer.h; path = GCDWebServer/Core/GCDWebServer.h; sourceTree = "<group>"; };
+		AA63E87CC4C87753192F48A0C7124520 /* Pods-ZKVideoCache_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZKVideoCache_Tests-resources.sh"; sourceTree = "<group>"; };
+		ADD2A0F171668429C80B0EA4C4AA9DB6 /* ZKVideoCache-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZKVideoCache-umbrella.h"; sourceTree = "<group>"; };
+		AF434A3B50D653ADB56016EC46F91DD1 /* GCDWebServerStreamedResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerStreamedResponse.m; path = GCDWebServer/Responses/GCDWebServerStreamedResponse.m; sourceTree = "<group>"; };
+		B0FB1D7C13E4E888723FD8A33238253E /* GCDWebServerResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerResponse.m; path = GCDWebServer/Core/GCDWebServerResponse.m; sourceTree = "<group>"; };
+		B2AF76546AC8841DCDC38746BA26E19E /* Pods-ZKVideoCache_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZKVideoCache_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		B3474731DD2D0E2599B668B5825C200D /* FMDatabaseQueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabaseQueue.h; path = src/fmdb/FMDatabaseQueue.h; sourceTree = "<group>"; };
+		B3A62EF0EAE9C04BC479CA80B179D2DB /* GCDWebServerFileResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerFileResponse.m; path = GCDWebServer/Responses/GCDWebServerFileResponse.m; sourceTree = "<group>"; };
+		B4FB39BFF2800ECE7CD4D53A3061D39F /* Pods-ZKVideoCache_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZKVideoCache_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		B69AEDBB5EA15F38A418F880CD4BDBB5 /* ZKNetwork.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZKNetwork.h; path = ZKNetwork/Classes/ZKNetwork.h; sourceTree = "<group>"; };
+		B9D47DE7E1850B78F39FF8B0BAB562C0 /* GCDWebServerMultiPartFormRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerMultiPartFormRequest.h; path = GCDWebServer/Requests/GCDWebServerMultiPartFormRequest.h; sourceTree = "<group>"; };
+		BA3B108CABDD8AF58C692C925CA2DECC /* ZKNetwork.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZKNetwork.m; path = ZKNetwork/Classes/ZKNetwork.m; sourceTree = "<group>"; };
+		BACF17831BF6B727AD642B97562DCF6F /* Pods_ZKVideoCache_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZKVideoCache_Example.framework; path = "Pods-ZKVideoCache_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEBB12B0D322EAD427B555796EAE412A /* CocoaLumberjack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CocoaLumberjack.h; path = Classes/CocoaLumberjack.h; sourceTree = "<group>"; };
+		C016169A582E17238B5D0789AC623DED /* DDTTYLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDTTYLogger.m; path = Classes/DDTTYLogger.m; sourceTree = "<group>"; };
+		C3661098F4B78CDDDCA36B1FC9AAE9DC /* DDDispatchQueueLogFormatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDDispatchQueueLogFormatter.h; path = Classes/Extensions/DDDispatchQueueLogFormatter.h; sourceTree = "<group>"; };
+		C3792210BB9943CAA57FD548F03D9523 /* ZKDownloadRecord.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZKDownloadRecord.m; path = ZKNetwork/Classes/ZKDownloadRecord.m; sourceTree = "<group>"; };
+		C644FCA337A3874BF6207BFB85CD4775 /* ZKNetwork-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZKNetwork-umbrella.h"; sourceTree = "<group>"; };
+		CA8B538BF75529B2A35459F692D53DDE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF264B5543AD5A848B8611D1A4EF77DF /* FMDatabase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabase.h; path = src/fmdb/FMDatabase.h; sourceTree = "<group>"; };
+		D0073796D3CCBDE9155B0968A186D5E8 /* GCDWebServerErrorResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerErrorResponse.h; path = GCDWebServer/Responses/GCDWebServerErrorResponse.h; sourceTree = "<group>"; };
+		D2B69041EB908AF7E23DA1D9CFD0DE99 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseQueue.m; path = src/fmdb/FMDatabaseQueue.m; sourceTree = "<group>"; };
+		D4F7B9BB1C32A4146513C842D4AFD643 /* GCDWebServer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GCDWebServer-prefix.pch"; sourceTree = "<group>"; };
+		DAA79E3E8240E0B94571B08C521F63ED /* GCDWebServerMultiPartFormRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerMultiPartFormRequest.m; path = GCDWebServer/Requests/GCDWebServerMultiPartFormRequest.m; sourceTree = "<group>"; };
+		DC2537510074E1DC553B6F26F44162AC /* DDAbstractDatabaseLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDAbstractDatabaseLogger.h; path = Classes/DDAbstractDatabaseLogger.h; sourceTree = "<group>"; };
+		DE84440639962479D56B1003E1A379D6 /* Pods-ZKVideoCache_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZKVideoCache_Example-frameworks.sh"; sourceTree = "<group>"; };
+		DF80A42792F2739B8C7D90A4B95A8FC0 /* DDContextFilterLogFormatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDContextFilterLogFormatter.h; path = Classes/Extensions/DDContextFilterLogFormatter.h; sourceTree = "<group>"; };
+		E441BB9FF602710F4962083F2E87B5B6 /* Pods-ZKVideoCache_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZKVideoCache_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		E563D75CA6ACD33DF07F94E70B972F0A /* FMResultSet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMResultSet.h; path = src/fmdb/FMResultSet.h; sourceTree = "<group>"; };
+		E6EE80107C8EBDAE2E591AD287B17DD3 /* DDDispatchQueueLogFormatter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDDispatchQueueLogFormatter.m; path = Classes/Extensions/DDDispatchQueueLogFormatter.m; sourceTree = "<group>"; };
+		E92CFF1D69C5885B960E1487C2026126 /* ZKVideoCacheManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZKVideoCacheManager.m; sourceTree = "<group>"; };
+		EAB556D690E119A6B470E54EAAE8176B /* ZKNetwork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ZKNetwork.framework; path = ZKNetwork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB34221FAAACC4ECB96A704132421EB7 /* Pods-ZKVideoCache_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZKVideoCache_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		EB84C41DE711DEF07604B30F47CEF68F /* GCDWebServerPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerPrivate.h; path = GCDWebServer/Core/GCDWebServerPrivate.h; sourceTree = "<group>"; };
+		EE757311631F4F19DDA576A07BE2521A /* Pods-ZKVideoCache_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZKVideoCache_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		EE7E81B47D9860F1111EAE950F08F63C /* GCDWebServerStreamedResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerStreamedResponse.h; path = GCDWebServer/Responses/GCDWebServerStreamedResponse.h; sourceTree = "<group>"; };
+		EFEF1B65984F9FC3F8BF5DADF78BA07D /* Pods-ZKVideoCache_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZKVideoCache_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		F371553850B02DE597D94C3BA3A48733 /* ZKVideoCacheManager+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZKVideoCacheManager+Private.h"; sourceTree = "<group>"; };
+		F447ABBA4D6A5D4A85D8FBB51275491F /* Pods_ZKVideoCache_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZKVideoCache_Tests.framework; path = "Pods-ZKVideoCache_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F598C5C6996AEEAF9B9B1AA042106509 /* RequestUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RequestUtils.h; path = ZKNetwork/Classes/RequestUtils.h; sourceTree = "<group>"; };
+		F6368F73CE0957D159EC0328E04EB102 /* GCDWebServer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = GCDWebServer.modulemap; sourceTree = "<group>"; };
+		F8735FE984FA763889555B314A7569A9 /* GCDWebServerConnection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerConnection.m; path = GCDWebServer/Core/GCDWebServerConnection.m; sourceTree = "<group>"; };
+		F8EA8F48B531A4DCB8672C2FAB5CC9B6 /* CocoaLumberjack.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CocoaLumberjack.framework; path = CocoaLumberjack.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F946EBA8F99D976A3469DD678DBB02B7 /* RequestUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RequestUtils.m; path = ZKNetwork/Classes/RequestUtils.m; sourceTree = "<group>"; };
+		FB85266F18477CBA4D8F0600F22FC1A1 /* CocoaLumberjack-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaLumberjack-prefix.pch"; sourceTree = "<group>"; };
+		FD12272276745A97F91FD58EA3A3152B /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
+		FE3A9520FCFC20D7851AF37E3FE467DE /* DDAssertMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDAssertMacros.h; path = Classes/DDAssertMacros.h; sourceTree = "<group>"; };
+		FE3F2F5F3E375070C628EF3A1CF55041 /* CocoaLumberjack-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CocoaLumberjack-dummy.m"; sourceTree = "<group>"; };
+		FF4FB5E2F8215B3F8498BF5443387E04 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF642FE9EF507B015FF46AC4D22E244E /* Pods-ZKVideoCache_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZKVideoCache_Example.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1347F45CD88388ADB53B111237B45280 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F92D6E3BAFB673C53FE656CFF5D79D5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DAE9EBF476C5809FE3293716862DBFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54D816D2A79FC15BE58040F4F82A2E21 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FE33047F426FABC93F7F6BEC4E9CA47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				925011C197386D906E3570BA11CC424D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30B9D1960350F30AB1F9FE964077DA5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F47A221906EF7FC382878E8324D04F73 /* CocoaLumberjack.framework in Frameworks */,
+				447CD4AF8B457734E735475284C01DF1 /* FMDB.framework in Frameworks */,
+				2E789D8DA13B4E65ACD66E020732E79A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6911A06C2CC45F17FC9B6130CEE9B1D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79CB55AE78BDCB56629F5153C164227A /* CocoaLumberjack.framework in Frameworks */,
+				06DB5B0AA114350A2B95A8B5314E1F28 /* FMDB.framework in Frameworks */,
+				41339E34A74D06042FC3D33173F1D14B /* Foundation.framework in Frameworks */,
+				7DF86B68F393376CBBB3A9E46E40F5F2 /* GCDWebServer.framework in Frameworks */,
+				0A2BB983ACF88C742F34883294ED21C2 /* ZKNetwork.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4492D2026C6838F33DD08B302F3E503 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2FAA3048F5793B589945BD8D35858FF /* CFNetwork.framework in Frameworks */,
+				A0C915F6C467A83C3E77E203EF5B33BA /* Foundation.framework in Frameworks */,
+				92CC6A94BFD4398763FA40E2EE01630A /* MobileCoreServices.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEFB61A65EB8DA6653B544822EB9CE44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36B7EFD99C52F961A48656DB5FCEE9D5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02331FF61BF7377F38D61F925469513A /* Pods-ZKVideoCache_Example */ = {
+			isa = PBXGroup;
+			children = (
+				80FD99FEC1190C3CD54A427A9FC4A1BB /* Info.plist */,
+				9E3106CA93965F1E31A24BE6226AAA31 /* Pods-ZKVideoCache_Example.modulemap */,
+				150F23D5987F5A131C75641E5C4540C8 /* Pods-ZKVideoCache_Example-acknowledgements.markdown */,
+				B2AF76546AC8841DCDC38746BA26E19E /* Pods-ZKVideoCache_Example-acknowledgements.plist */,
+				5ABD6FFA19F93B9F6E27E50EE7178535 /* Pods-ZKVideoCache_Example-dummy.m */,
+				DE84440639962479D56B1003E1A379D6 /* Pods-ZKVideoCache_Example-frameworks.sh */,
+				8462BE600FB6694A4DF1542804AA83D2 /* Pods-ZKVideoCache_Example-resources.sh */,
+				8FF3DEA56076DB727AC00DF326B36C63 /* Pods-ZKVideoCache_Example-umbrella.h */,
+				EFEF1B65984F9FC3F8BF5DADF78BA07D /* Pods-ZKVideoCache_Example.debug.xcconfig */,
+				FF642FE9EF507B015FF46AC4D22E244E /* Pods-ZKVideoCache_Example.release.xcconfig */,
+			);
+			name = "Pods-ZKVideoCache_Example";
+			path = "Target Support Files/Pods-ZKVideoCache_Example";
+			sourceTree = "<group>";
+		};
+		2577B7F0CB1BB64DDC762C9330027E08 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				02331FF61BF7377F38D61F925469513A /* Pods-ZKVideoCache_Example */,
+				727078FA5B8E64DAEAAAFCBD79102810 /* Pods-ZKVideoCache_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		33C4B52D787F93DA5D0BDC5836C7FDFE /* ZKVideoCache */ = {
+			isa = PBXGroup;
+			children = (
+				C9416FA39329D137DFE26D771A6ED1B6 /* Classes */,
+			);
+			name = ZKVideoCache;
+			path = ZKVideoCache;
+			sourceTree = "<group>";
+		};
+		3B50C59040D068E13CE7E8CADB8DB687 /* ZKVideoCache */ = {
+			isa = PBXGroup;
+			children = (
+				EC272113A08590D54861C19FCD6B093B /* Support Files */,
+				33C4B52D787F93DA5D0BDC5836C7FDFE /* ZKVideoCache */,
+			);
+			name = ZKVideoCache;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		3EBF261FD718B9979AC87B660C100D1C /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				DC2537510074E1DC553B6F26F44162AC /* DDAbstractDatabaseLogger.h */,
+				4354D1310416D8D73EBB1622ECF8E1D4 /* DDAbstractDatabaseLogger.m */,
+				51C1BED1FB4B8A7F232546CA1E36BFDF /* DDASLLogCapture.h */,
+				13150B29C3E14D797A6337DC7092DC48 /* DDASLLogCapture.m */,
+				4DC29686C55ECA5F98E74716585167B0 /* DDASLLogger.h */,
+				09447A726C435E036380E8A5C0FB203C /* DDASLLogger.m */,
+				FE3A9520FCFC20D7851AF37E3FE467DE /* DDAssertMacros.h */,
+				1CD446426194F26A34FC993B730E451D /* DDFileLogger.h */,
+				5F922A72469F0B6A5D79F15D1F4E3E83 /* DDFileLogger.m */,
+				A8FF96F1573AA6C2ACCA00D3D9462976 /* DDLegacyMacros.h */,
+				70FEC8DDD826F6B8FE930CA07A497324 /* DDLog.h */,
+				98ABD7B540BD3D94F09BC9B1C1CD8FEB /* DDLog.m */,
+				6BC0626707143028B52F50B2F579C216 /* DDLog+LOGV.h */,
+				84AC6ECD395F534DC9075498CF432AA5 /* DDLogMacros.h */,
+				4EC70BF7288E70E62D712121B949B635 /* DDTTYLogger.h */,
+				C016169A582E17238B5D0789AC623DED /* DDTTYLogger.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		3F191756E8764884E419D8D2CA3E849E /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3B50C59040D068E13CE7E8CADB8DB687 /* ZKVideoCache */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		680090CE075166F4EE7B1F8BECA2D89D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F8EA8F48B531A4DCB8672C2FAB5CC9B6 /* CocoaLumberjack.framework */,
+				3D1D69B37B39D15FB5DE7529B3EE1CA1 /* FMDB.framework */,
+				9339C7EC5056A71F7286BB001CE20AD0 /* GCDWebServer.framework */,
+				BACF17831BF6B727AD642B97562DCF6F /* Pods_ZKVideoCache_Example.framework */,
+				F447ABBA4D6A5D4A85D8FBB51275491F /* Pods_ZKVideoCache_Tests.framework */,
+				EAB556D690E119A6B470E54EAAE8176B /* ZKNetwork.framework */,
+				7DB9E19A226F4124B06994C07C9B3B07 /* ZKVideoCache.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		69C04D905215E13135E1121DBF48D43B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8B660BAA8028BD9DC46F881FE336D5AD /* CocoaLumberjack.modulemap */,
+				10E5CCCB801487F45F68CEBA31E4B813 /* CocoaLumberjack.xcconfig */,
+				FE3F2F5F3E375070C628EF3A1CF55041 /* CocoaLumberjack-dummy.m */,
+				FB85266F18477CBA4D8F0600F22FC1A1 /* CocoaLumberjack-prefix.pch */,
+				6324583B5BAC499598867691A5EA34B4 /* CocoaLumberjack-umbrella.h */,
+				8A93CCD55AB3D1FDACDADE10B8B8CE7D /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CocoaLumberjack";
+			sourceTree = "<group>";
+		};
+		727078FA5B8E64DAEAAAFCBD79102810 /* Pods-ZKVideoCache_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				FF4FB5E2F8215B3F8498BF5443387E04 /* Info.plist */,
+				81D1B0B0FDA5A22AD8C025380ACCB8D4 /* Pods-ZKVideoCache_Tests.modulemap */,
+				849168B8648CA77D8247C01D327AA585 /* Pods-ZKVideoCache_Tests-acknowledgements.markdown */,
+				EB34221FAAACC4ECB96A704132421EB7 /* Pods-ZKVideoCache_Tests-acknowledgements.plist */,
+				4C067F7DEE1C561B40C84D82F5AE10BE /* Pods-ZKVideoCache_Tests-dummy.m */,
+				EE757311631F4F19DDA576A07BE2521A /* Pods-ZKVideoCache_Tests-frameworks.sh */,
+				AA63E87CC4C87753192F48A0C7124520 /* Pods-ZKVideoCache_Tests-resources.sh */,
+				84730FFEC67E5F9B5550F29CD52A3537 /* Pods-ZKVideoCache_Tests-umbrella.h */,
+				B4FB39BFF2800ECE7CD4D53A3061D39F /* Pods-ZKVideoCache_Tests.debug.xcconfig */,
+				E441BB9FF602710F4962083F2E87B5B6 /* Pods-ZKVideoCache_Tests.release.xcconfig */,
+			);
+			name = "Pods-ZKVideoCache_Tests";
+			path = "Target Support Files/Pods-ZKVideoCache_Tests";
+			sourceTree = "<group>";
+		};
+		7DA6BDD164DF39F7A3FB152230F671BA /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				DEEE547E55B01544F6C85F050EB3E10E /* standard */,
+				CF968C95E7909EC8E2A6201E24C80C45 /* Support Files */,
+			);
+			name = FMDB;
+			path = FMDB;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				3F191756E8764884E419D8D2CA3E849E /* Development Pods */,
+				BF8E61166F09A32D178B3A611B315420 /* Frameworks */,
+				8280A4EECE165767A9F07D5107DC57A3 /* Pods */,
+				680090CE075166F4EE7B1F8BECA2D89D /* Products */,
+				2577B7F0CB1BB64DDC762C9330027E08 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8280A4EECE165767A9F07D5107DC57A3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CC657A02806BA2F692B9E0F72D03A740 /* CocoaLumberjack */,
+				7DA6BDD164DF39F7A3FB152230F671BA /* FMDB */,
+				B415C42287114ACF77917924405C016A /* GCDWebServer */,
+				C1B35279C167F19ED16A64C35C38ACB6 /* ZKNetwork */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		83B8BD53FABDCCE28C1A359C3C6FAAE1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5BE89E6A8052A08E97626280723F51E7 /* CFNetwork.framework */,
+				89F88FB2C567830EC23FA601C991737A /* Foundation.framework */,
+				FD12272276745A97F91FD58EA3A3152B /* MobileCoreServices.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		844DE8E57F929A7E90C7D50F42AA734F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				DF80A42792F2739B8C7D90A4B95A8FC0 /* DDContextFilterLogFormatter.h */,
+				9837AF5EDB14971EE159B0844896DBF9 /* DDContextFilterLogFormatter.m */,
+				C3661098F4B78CDDDCA36B1FC9AAE9DC /* DDDispatchQueueLogFormatter.h */,
+				E6EE80107C8EBDAE2E591AD287B17DD3 /* DDDispatchQueueLogFormatter.m */,
+				9FF3240279B656496DEEEC00C1CE3BCD /* DDMultiFormatter.h */,
+				45BAED04CB9AEA05476928ACDF05FD17 /* DDMultiFormatter.m */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		B415C42287114ACF77917924405C016A /* GCDWebServer */ = {
+			isa = PBXGroup;
+			children = (
+				D370B08FA37299750B4B22E94DD89BC6 /* Core */,
+				DB08BE03A555A5328EBA3D7D565E3E24 /* Support Files */,
+			);
+			name = GCDWebServer;
+			path = GCDWebServer;
+			sourceTree = "<group>";
+		};
+		BF8E61166F09A32D178B3A611B315420 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				997AF79E2223B41B2CB49E128AE01B1A /* CocoaLumberjack.framework */,
+				9A0B7356554815D6282BCD7AC5303C58 /* FMDB.framework */,
+				951EFEBA3D94ED28DC02AF9665EDF927 /* GCDWebServer.framework */,
+				6679AC4BCE550ECE9BE7C958E131FB8A /* ZKNetwork.framework */,
+				83B8BD53FABDCCE28C1A359C3C6FAAE1 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C1B35279C167F19ED16A64C35C38ACB6 /* ZKNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				F598C5C6996AEEAF9B9B1AA042106509 /* RequestUtils.h */,
+				F946EBA8F99D976A3469DD678DBB02B7 /* RequestUtils.m */,
+				4642B56BB853F47E8F21181320BFFF4B /* ZKDownloadRecord.h */,
+				C3792210BB9943CAA57FD548F03D9523 /* ZKDownloadRecord.m */,
+				B69AEDBB5EA15F38A418F880CD4BDBB5 /* ZKNetwork.h */,
+				BA3B108CABDD8AF58C692C925CA2DECC /* ZKNetwork.m */,
+				678EF1FEC2BEC519A1AFFE2E85AC991D /* ZKNetwork+Private.h */,
+				FBECC6DA31F9CEAF1989AC45EFE2A730 /* Support Files */,
+			);
+			name = ZKNetwork;
+			path = ZKNetwork;
+			sourceTree = "<group>";
+		};
+		C9416FA39329D137DFE26D771A6ED1B6 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				450179A0FA9B899BE7F9D732201E28C8 /* ZKVideoCacheManager.h */,
+				E92CFF1D69C5885B960E1487C2026126 /* ZKVideoCacheManager.m */,
+				F371553850B02DE597D94C3BA3A48733 /* ZKVideoCacheManager+Private.h */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		CC657A02806BA2F692B9E0F72D03A740 /* CocoaLumberjack */ = {
+			isa = PBXGroup;
+			children = (
+				3EBF261FD718B9979AC87B660C100D1C /* Core */,
+				D4A46E03DCD7881ACF64F6B75963628C /* Default */,
+				844DE8E57F929A7E90C7D50F42AA734F /* Extensions */,
+				69C04D905215E13135E1121DBF48D43B /* Support Files */,
+			);
+			name = CocoaLumberjack;
+			path = CocoaLumberjack;
+			sourceTree = "<group>";
+		};
+		CF968C95E7909EC8E2A6201E24C80C45 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				596BBC64A6257F8621426B4C01DB01E0 /* FMDB.modulemap */,
+				9B566B6A6E6E844764A18B5F51175FEA /* FMDB.xcconfig */,
+				935F84961593F40596A8D3F0C9425823 /* FMDB-dummy.m */,
+				47DE40598AE93EA0A0D39DE8A618199C /* FMDB-prefix.pch */,
+				91B11EE41A24E29342DE7DE4FDE6CBA7 /* FMDB-umbrella.h */,
+				CA8B538BF75529B2A35459F692D53DDE /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FMDB";
+			sourceTree = "<group>";
+		};
+		D370B08FA37299750B4B22E94DD89BC6 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				A97354BC5BA7B964D6D7422FECCFC12F /* GCDWebServer.h */,
+				906224E8A5A4E76BCB85D8AF6D0F6CFF /* GCDWebServer.m */,
+				1D30F0F50A0CA2AC367B46A9917A8474 /* GCDWebServerConnection.h */,
+				F8735FE984FA763889555B314A7569A9 /* GCDWebServerConnection.m */,
+				71C601C237ED0005B44BAA66B8BB7994 /* GCDWebServerDataRequest.h */,
+				5EC24B67BB71127378D1EE42F38E832E /* GCDWebServerDataRequest.m */,
+				721AECEB2A4B88829EBD56C7534F6B9E /* GCDWebServerDataResponse.h */,
+				1C42EADFFFA2F5421C5B0D6026DE7C65 /* GCDWebServerDataResponse.m */,
+				D0073796D3CCBDE9155B0968A186D5E8 /* GCDWebServerErrorResponse.h */,
+				80580E66373940A023B95DB7D40EBC9C /* GCDWebServerErrorResponse.m */,
+				68DA33DD782EE3C7A5FCCC96345D5CCF /* GCDWebServerFileRequest.h */,
+				54E8F4CF1861DBE94E8695E9AE423E64 /* GCDWebServerFileRequest.m */,
+				8F8DDC0FA62ADC62FF4BE04FBE3727B6 /* GCDWebServerFileResponse.h */,
+				B3A62EF0EAE9C04BC479CA80B179D2DB /* GCDWebServerFileResponse.m */,
+				53FB45E747E837101CAB74BC8D5BD7D1 /* GCDWebServerFunctions.h */,
+				75423AFEA7272D49BA69E6DB5977DAEB /* GCDWebServerFunctions.m */,
+				2E7586D79E344C66D5920F02B98E0C11 /* GCDWebServerHTTPStatusCodes.h */,
+				B9D47DE7E1850B78F39FF8B0BAB562C0 /* GCDWebServerMultiPartFormRequest.h */,
+				DAA79E3E8240E0B94571B08C521F63ED /* GCDWebServerMultiPartFormRequest.m */,
+				EB84C41DE711DEF07604B30F47CEF68F /* GCDWebServerPrivate.h */,
+				65CEEAADFDACECB778DEB5DDEDA529E3 /* GCDWebServerRequest.h */,
+				0102C07CAA3CA327D475159C060842EB /* GCDWebServerRequest.m */,
+				97F7A0F0F1941ADEE343AEF797E2527D /* GCDWebServerResponse.h */,
+				B0FB1D7C13E4E888723FD8A33238253E /* GCDWebServerResponse.m */,
+				EE7E81B47D9860F1111EAE950F08F63C /* GCDWebServerStreamedResponse.h */,
+				AF434A3B50D653ADB56016EC46F91DD1 /* GCDWebServerStreamedResponse.m */,
+				72A13B497952690B3AEB800B57CDD1F8 /* GCDWebServerURLEncodedFormRequest.h */,
+				4988A2410225DC2A2AB74F2686F0E6DF /* GCDWebServerURLEncodedFormRequest.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		D4A46E03DCD7881ACF64F6B75963628C /* Default */ = {
+			isa = PBXGroup;
+			children = (
+				BEBB12B0D322EAD427B555796EAE412A /* CocoaLumberjack.h */,
+			);
+			name = Default;
+			sourceTree = "<group>";
+		};
+		DB08BE03A555A5328EBA3D7D565E3E24 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F6368F73CE0957D159EC0328E04EB102 /* GCDWebServer.modulemap */,
+				2DBBB6FC8FBD765334F34A92A10A43FA /* GCDWebServer.xcconfig */,
+				0E9F258B1F9D62B95F3541B87780C6C1 /* GCDWebServer-dummy.m */,
+				D4F7B9BB1C32A4146513C842D4AFD643 /* GCDWebServer-prefix.pch */,
+				7D3591A86169EB7293B435565F9C3C81 /* GCDWebServer-umbrella.h */,
+				2AF9B822DE0DC6DC65263A7562814498 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GCDWebServer";
+			sourceTree = "<group>";
+		};
+		DEEE547E55B01544F6C85F050EB3E10E /* standard */ = {
+			isa = PBXGroup;
+			children = (
+				CF264B5543AD5A848B8611D1A4EF77DF /* FMDatabase.h */,
+				7C893DD22387D538DDA1E09600C2F30D /* FMDatabase.m */,
+				80747AD7F71C5B64AFF6D186D381C4D4 /* FMDatabaseAdditions.h */,
+				925AEDD0C3E91703C2773E39A0216518 /* FMDatabaseAdditions.m */,
+				27C9CDAC2C507412DAE3738D8FC4FB6B /* FMDatabasePool.h */,
+				782343DC643360A9368D279545474C46 /* FMDatabasePool.m */,
+				B3474731DD2D0E2599B668B5825C200D /* FMDatabaseQueue.h */,
+				D2B69041EB908AF7E23DA1D9CFD0DE99 /* FMDatabaseQueue.m */,
+				A36D3E7C19EBA1A4F3AD149CF5DBBB0C /* FMDB.h */,
+				E563D75CA6ACD33DF07F94E70B972F0A /* FMResultSet.h */,
+				343C24B97C68C65DFD498F5709A24C1B /* FMResultSet.m */,
+			);
+			name = standard;
+			sourceTree = "<group>";
+		};
+		EC272113A08590D54861C19FCD6B093B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6D7BE88426D56B617617A5720AAAA5E8 /* Info.plist */,
+				125D1854AA2CFC03821F8DC5E55ED804 /* ZKVideoCache.modulemap */,
+				894469E86E8CBB2A94EC83DC27A80416 /* ZKVideoCache.xcconfig */,
+				3BB4480BD8CB8CDF0891671221CD5F18 /* ZKVideoCache-dummy.m */,
+				26F1231CF5390411FD9D19AC223C849C /* ZKVideoCache-prefix.pch */,
+				ADD2A0F171668429C80B0EA4C4AA9DB6 /* ZKVideoCache-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ZKVideoCache";
+			sourceTree = "<group>";
+		};
+		FBECC6DA31F9CEAF1989AC45EFE2A730 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9B599AE5FEF434FDBBD78977784C016D /* Info.plist */,
+				0551CB96A2D041A3D18689F958E24789 /* ZKNetwork.modulemap */,
+				94D0754D98339178551279CABDAB2CE4 /* ZKNetwork.xcconfig */,
+				05FC71C3BD55C4D6A60C2AE7F08D5D1B /* ZKNetwork-dummy.m */,
+				6DFA9AE23F994C9AFD5D4EB5C305CBF8 /* ZKNetwork-prefix.pch */,
+				C644FCA337A3874BF6207BFB85CD4775 /* ZKNetwork-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ZKNetwork";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		06181C2872D23D0D958EA77AEDF918C4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F5CDC93F4A4C36A97FE5E580F362DD4 /* RequestUtils.h in Headers */,
+				E7DBE3CCDFDD8BD8A27A07A91477A7C0 /* ZKDownloadRecord.h in Headers */,
+				50B102FC5E3BF50B4B463849F2704C77 /* ZKNetwork+Private.h in Headers */,
+				0F58A25FF89A392AF5FBBCC5711E1A11 /* ZKNetwork-umbrella.h in Headers */,
+				86A1A0774A8186468FBF42B5AA593DEF /* ZKNetwork.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BA0FB59F7BF97E8494BFE0319D7BF49 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6D39919E7A93EF730A42C5454FE14DA /* GCDWebServer-umbrella.h in Headers */,
+				C7C59EABCA3DDF9027315567A86633C9 /* GCDWebServer.h in Headers */,
+				BEC201BABAE91076042A1E129F4DA3C3 /* GCDWebServerConnection.h in Headers */,
+				7FAF962B8C7835FE24B87E0491ABD3BF /* GCDWebServerDataRequest.h in Headers */,
+				93F748D723B8A26F9F86DEE7517ECE3E /* GCDWebServerDataResponse.h in Headers */,
+				DC09F868362D0A2A04B9F976EA736327 /* GCDWebServerErrorResponse.h in Headers */,
+				B4911B17CF238F3346307208CB00AEB2 /* GCDWebServerFileRequest.h in Headers */,
+				BF2F9CB14A46386124DA587D5601A8CF /* GCDWebServerFileResponse.h in Headers */,
+				DE59D3775F15714D2A4D6E0493982534 /* GCDWebServerFunctions.h in Headers */,
+				A7DB03F2E311A12C08C6ABA437DA5D7D /* GCDWebServerHTTPStatusCodes.h in Headers */,
+				D6CB3B96FE8AE0307F1F8959E648056C /* GCDWebServerMultiPartFormRequest.h in Headers */,
+				DC031CF0E61CC9BB8CA74D347D6AF8AB /* GCDWebServerPrivate.h in Headers */,
+				722A5AF46F8C5D56564E86D84F29347E /* GCDWebServerRequest.h in Headers */,
+				E9FA66200123610C2387FF3196460246 /* GCDWebServerResponse.h in Headers */,
+				6B80C04509C2C2D5835E7BA7DAA79149 /* GCDWebServerStreamedResponse.h in Headers */,
+				7E7FD57AF138183D9FF3658B84E6C0A0 /* GCDWebServerURLEncodedFormRequest.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D2A080C5CD4ED4520C6AEFA1D6BA26F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F11FAB91014130EE233A3429439D38D7 /* FMDatabase.h in Headers */,
+				A548833BE5FAD40830428F36E77D0F52 /* FMDatabaseAdditions.h in Headers */,
+				9B8D84996694C541CD3434386E0A081A /* FMDatabasePool.h in Headers */,
+				22554065FA07F1BFE5308A685394CB12 /* FMDatabaseQueue.h in Headers */,
+				96E70B43FC04BC99AED1BBD4FB1D7581 /* FMDB-umbrella.h in Headers */,
+				CCB74062CE0F4B8E5B7483599BC398DA /* FMDB.h in Headers */,
+				3E43906B70EB01C06F3AE17008B853B9 /* FMResultSet.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44867B7FF15B77CC02DB4F025029DD5D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9202BF10473745D3B8B930E633707E9 /* ZKVideoCache-umbrella.h in Headers */,
+				196CF3066E15849E89BA8A75C013026F /* ZKVideoCacheManager+Private.h in Headers */,
+				774046B19FF9BD07C24CA54D27EFBDF5 /* ZKVideoCacheManager.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4893DE95092064C2A4A2F0B01163C532 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18FD0193220144E842CA0699DB14C0F4 /* Pods-ZKVideoCache_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A2BA6B61950978CCB2950EA8D860AD7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25C087DFF271E3D0012DF9AD13843955 /* CocoaLumberjack-umbrella.h in Headers */,
+				68B01D224A06CE1B9435E47645C1E577 /* CocoaLumberjack.h in Headers */,
+				E242E473DECC637748E5FD2DCAB11845 /* DDAbstractDatabaseLogger.h in Headers */,
+				5F8D75561BFCF43B6E23EC437D73D19F /* DDASLLogCapture.h in Headers */,
+				660DD1E1BD66C680721BF5216AAD4924 /* DDASLLogger.h in Headers */,
+				9EE8DF0E144E2D89D7FAD579E45E051F /* DDAssertMacros.h in Headers */,
+				97AFC02B2E3ED5306BC7029A85AAEFDF /* DDContextFilterLogFormatter.h in Headers */,
+				0596680FB743918F21EF9DFE8CF0B0AE /* DDDispatchQueueLogFormatter.h in Headers */,
+				0B15BA5156B6B134DAFC2A379A8EBF20 /* DDFileLogger.h in Headers */,
+				46BCF6AD09D0E803C4668842D2EF119D /* DDLegacyMacros.h in Headers */,
+				A014969FB30EEED23C3D76BD4D65C78C /* DDLog+LOGV.h in Headers */,
+				75FB440FD0DD7F3C2D345BDFA15B9658 /* DDLog.h in Headers */,
+				BFFD83AC2259740A5A744A0135D23837 /* DDLogMacros.h in Headers */,
+				50C496B6A14E982C5C09CC54DE00F90B /* DDMultiFormatter.h in Headers */,
+				72F63C2F0967EE8CDF957D21F459EA3F /* DDTTYLogger.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E7BD425558AD7910F009B712FB55894 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62DE4D4D57A20310148A125545E2E087 /* Pods-ZKVideoCache_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1252D2FE5A3F0266E8959BB670344352 /* GCDWebServer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41F4D36572763B40C3A8B1A51F58E3A0 /* Build configuration list for PBXNativeTarget "GCDWebServer" */;
+			buildPhases = (
+				581A4E0AD2971697D58C2394D44F9F87 /* Sources */,
+				B4492D2026C6838F33DD08B302F3E503 /* Frameworks */,
+				3BA0FB59F7BF97E8494BFE0319D7BF49 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GCDWebServer;
+			productName = GCDWebServer;
+			productReference = 9339C7EC5056A71F7286BB001CE20AD0 /* GCDWebServer.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		251BAD17812F7EBF6532EACF66F941C3 /* FMDB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B0566FF0CE681AC326D316CEC45A8CF /* Build configuration list for PBXNativeTarget "FMDB" */;
+			buildPhases = (
+				8FE0D4B503A94502F3431DC0DCB58040 /* Sources */,
+				EEFB61A65EB8DA6653B544822EB9CE44 /* Frameworks */,
+				3D2A080C5CD4ED4520C6AEFA1D6BA26F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FMDB;
+			productName = FMDB;
+			productReference = 3D1D69B37B39D15FB5DE7529B3EE1CA1 /* FMDB.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		416B388906DEFAC81F0676F277AC9058 /* CocoaLumberjack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5B6D5A601701FB211DE1B97A7F7A291 /* Build configuration list for PBXNativeTarget "CocoaLumberjack" */;
+			buildPhases = (
+				0956BDA9541F6CB5E6D3EF34F0C6C680 /* Sources */,
+				2FE33047F426FABC93F7F6BEC4E9CA47 /* Frameworks */,
+				6A2BA6B61950978CCB2950EA8D860AD7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CocoaLumberjack;
+			productName = CocoaLumberjack;
+			productReference = F8EA8F48B531A4DCB8672C2FAB5CC9B6 /* CocoaLumberjack.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4C45AFEB1922578492A941A21FBC28C9 /* ZKVideoCache */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 364E7D3FB342C230DE20D97A23457982 /* Build configuration list for PBXNativeTarget "ZKVideoCache" */;
+			buildPhases = (
+				E63E49D87327BBB33CC92D12297EC17B /* Sources */,
+				6911A06C2CC45F17FC9B6130CEE9B1D4 /* Frameworks */,
+				44867B7FF15B77CC02DB4F025029DD5D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				275B562C242D6A3318183667EB2D1986 /* PBXTargetDependency */,
+				B6E06FF24BDDED0FC375CDD2EE5AB79A /* PBXTargetDependency */,
+				E2E66E33544DC8C13A1A6C80F3B26F85 /* PBXTargetDependency */,
+				CF579B3F53DBC76A865DFBD81059701F /* PBXTargetDependency */,
+			);
+			name = ZKVideoCache;
+			productName = ZKVideoCache;
+			productReference = 7DB9E19A226F4124B06994C07C9B3B07 /* ZKVideoCache.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8498A82ACE00196ED3764B80383D275B /* Pods-ZKVideoCache_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65AE3CBA2CB26719EB186BE04580ECB0 /* Build configuration list for PBXNativeTarget "Pods-ZKVideoCache_Tests" */;
+			buildPhases = (
+				C6186C748C9CD31A475756EE619D10EB /* Sources */,
+				1DAE9EBF476C5809FE3293716862DBFD /* Frameworks */,
+				8E7BD425558AD7910F009B712FB55894 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-ZKVideoCache_Tests";
+			productName = "Pods-ZKVideoCache_Tests";
+			productReference = F447ABBA4D6A5D4A85D8FBB51275491F /* Pods_ZKVideoCache_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CC504DF1BA8A64811C4D3BC1B9A3627D /* Pods-ZKVideoCache_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BF7E24503AD05686214582F6F41B57E /* Build configuration list for PBXNativeTarget "Pods-ZKVideoCache_Example" */;
+			buildPhases = (
+				5924B2B3E3BF9C44B237CF6147D6A849 /* Sources */,
+				1347F45CD88388ADB53B111237B45280 /* Frameworks */,
+				4893DE95092064C2A4A2F0B01163C532 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A6D9AEA8D15D96FAF9FF2033F5920772 /* PBXTargetDependency */,
+				585E45454A9E780AC2E8B0BA13F91E9F /* PBXTargetDependency */,
+				1CB51593B608B0519201E27D6BDC8F8B /* PBXTargetDependency */,
+				DDEC8E1FF937B3402C2F4F9995179E28 /* PBXTargetDependency */,
+				98C19ACA78C4F5142E47463B5F44B9E7 /* PBXTargetDependency */,
+			);
+			name = "Pods-ZKVideoCache_Example";
+			productName = "Pods-ZKVideoCache_Example";
+			productReference = BACF17831BF6B727AD642B97562DCF6F /* Pods_ZKVideoCache_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FDD8E7653DE13FE89BB8C451EA72BB8D /* ZKNetwork */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B05DE85C52C8A1A6E165B173FA579C37 /* Build configuration list for PBXNativeTarget "ZKNetwork" */;
+			buildPhases = (
+				815F0BDAD9CD883B823CF4160E017175 /* Sources */,
+				30B9D1960350F30AB1F9FE964077DA5B /* Frameworks */,
+				06181C2872D23D0D958EA77AEDF918C4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				11A6814C05A17AF9170DBF16C129BAA4 /* PBXTargetDependency */,
+				DD09078F3037E43A1794EEDA986EA04C /* PBXTargetDependency */,
+			);
+			name = ZKNetwork;
+			productName = ZKNetwork;
+			productReference = EAB556D690E119A6B470E54EAAE8176B /* ZKNetwork.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 680090CE075166F4EE7B1F8BECA2D89D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				416B388906DEFAC81F0676F277AC9058 /* CocoaLumberjack */,
+				251BAD17812F7EBF6532EACF66F941C3 /* FMDB */,
+				1252D2FE5A3F0266E8959BB670344352 /* GCDWebServer */,
+				CC504DF1BA8A64811C4D3BC1B9A3627D /* Pods-ZKVideoCache_Example */,
+				8498A82ACE00196ED3764B80383D275B /* Pods-ZKVideoCache_Tests */,
+				FDD8E7653DE13FE89BB8C451EA72BB8D /* ZKNetwork */,
+				4C45AFEB1922578492A941A21FBC28C9 /* ZKVideoCache */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0956BDA9541F6CB5E6D3EF34F0C6C680 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6312228BE75C943692BC2640ECC09F84 /* CocoaLumberjack-dummy.m in Sources */,
+				77FF7FD02536F0ADD5A223C21C5DD9EA /* DDAbstractDatabaseLogger.m in Sources */,
+				8F76C5F37E8242B88EF6C49529A86943 /* DDASLLogCapture.m in Sources */,
+				55ABA070EE224BDFAED54A74B7389704 /* DDASLLogger.m in Sources */,
+				F22E59FBB48937FB7875DBDB29A42C3B /* DDContextFilterLogFormatter.m in Sources */,
+				53D4700D729CB4E20F430F66E528E866 /* DDDispatchQueueLogFormatter.m in Sources */,
+				95E024141B195F4A94AC8717C8D470E9 /* DDFileLogger.m in Sources */,
+				6563EFCFBD7130893EB25698178F13E6 /* DDLog.m in Sources */,
+				226E6A6E6B7FCE8629500B86769CB6A7 /* DDMultiFormatter.m in Sources */,
+				881B705B962BA5F308D1AB7A65ECB58B /* DDTTYLogger.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		581A4E0AD2971697D58C2394D44F9F87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF7A3FE1CA10A986288F786B2A7E9054 /* GCDWebServer-dummy.m in Sources */,
+				3F2EA5B1B393A624A19F39E5B182FFD1 /* GCDWebServer.m in Sources */,
+				B0ED1E3D4F2B348DFD6C5CAC6A971EBD /* GCDWebServerConnection.m in Sources */,
+				B89AAFF661E1BCBA3D005334549968B2 /* GCDWebServerDataRequest.m in Sources */,
+				03AA035AB2A9F02ECECFA93457B8DE8F /* GCDWebServerDataResponse.m in Sources */,
+				C8A6A53A60FBBB06D21265EDCE7F4E68 /* GCDWebServerErrorResponse.m in Sources */,
+				84B05EB5D650F380CD272A0FC247513E /* GCDWebServerFileRequest.m in Sources */,
+				EBCDD16FC551D315235519D6B15F712B /* GCDWebServerFileResponse.m in Sources */,
+				FF00AE3097B2C6EE01B9F6D9442F1728 /* GCDWebServerFunctions.m in Sources */,
+				A34A12C16FC6222FE2857C2E73B97E30 /* GCDWebServerMultiPartFormRequest.m in Sources */,
+				61343920264EF7F860688D700C7B3F70 /* GCDWebServerRequest.m in Sources */,
+				5C0E30DB35EF26B32979C2FD46D16588 /* GCDWebServerResponse.m in Sources */,
+				9E63C3B33B3E8242FC45F6DB004A7020 /* GCDWebServerStreamedResponse.m in Sources */,
+				C8D5BF6885F6726D386BEE8ABBC29BEA /* GCDWebServerURLEncodedFormRequest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5924B2B3E3BF9C44B237CF6147D6A849 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4FB751FC66D7AD3FC89BC4F060D18C4 /* Pods-ZKVideoCache_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		815F0BDAD9CD883B823CF4160E017175 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CAAAB9FE2D2F25371C7C5FB1BB18FBC /* RequestUtils.m in Sources */,
+				56BBCA9C6B57445D794ED9A11B6F0BBF /* ZKDownloadRecord.m in Sources */,
+				2D8F573A37C3BCD9AB5AFC6BAFE76F4C /* ZKNetwork-dummy.m in Sources */,
+				6DFB28BAA5F95ED3DDA860977D11CA52 /* ZKNetwork.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FE0D4B503A94502F3431DC0DCB58040 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37F097E2269EF1BD238AD7449D796445 /* FMDatabase.m in Sources */,
+				9C11A290C9C5866A185A54F1EC04E2BB /* FMDatabaseAdditions.m in Sources */,
+				C605A44DF96E7FCACF7D6E37B62F795D /* FMDatabasePool.m in Sources */,
+				A1B5D80A8998311B8C9043E6942925E6 /* FMDatabaseQueue.m in Sources */,
+				D5991941DC41DDDDDACAE0B5D47A4639 /* FMDB-dummy.m in Sources */,
+				87ECA447DB887426665260651B7F147E /* FMResultSet.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6186C748C9CD31A475756EE619D10EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C317EE3A9B51BAD68D6C9158DD47ED5 /* Pods-ZKVideoCache_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E63E49D87327BBB33CC92D12297EC17B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33D977AC6CF0D4382D86E9B8C7A5D79F /* ZKVideoCache-dummy.m in Sources */,
+				EE37FA2370B09C7BA3E976804EE5690B /* ZKVideoCacheManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		11A6814C05A17AF9170DBF16C129BAA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CocoaLumberjack;
+			target = 416B388906DEFAC81F0676F277AC9058 /* CocoaLumberjack */;
+			targetProxy = B6ABC3F818B4DA06979835E01D6454CC /* PBXContainerItemProxy */;
+		};
+		1CB51593B608B0519201E27D6BDC8F8B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GCDWebServer;
+			target = 1252D2FE5A3F0266E8959BB670344352 /* GCDWebServer */;
+			targetProxy = 888F84FE5459D924AC665713B802D100 /* PBXContainerItemProxy */;
+		};
+		275B562C242D6A3318183667EB2D1986 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CocoaLumberjack;
+			target = 416B388906DEFAC81F0676F277AC9058 /* CocoaLumberjack */;
+			targetProxy = 62F449C22A3FD118BAFD871DA2422A04 /* PBXContainerItemProxy */;
+		};
+		585E45454A9E780AC2E8B0BA13F91E9F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FMDB;
+			target = 251BAD17812F7EBF6532EACF66F941C3 /* FMDB */;
+			targetProxy = CF30041B61841CB97269F54FFA31690B /* PBXContainerItemProxy */;
+		};
+		98C19ACA78C4F5142E47463B5F44B9E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZKVideoCache;
+			target = 4C45AFEB1922578492A941A21FBC28C9 /* ZKVideoCache */;
+			targetProxy = 4970473E9A7B3524496844C2066266FE /* PBXContainerItemProxy */;
+		};
+		A6D9AEA8D15D96FAF9FF2033F5920772 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CocoaLumberjack;
+			target = 416B388906DEFAC81F0676F277AC9058 /* CocoaLumberjack */;
+			targetProxy = 67B11498244F6644444D62574A9F2640 /* PBXContainerItemProxy */;
+		};
+		B6E06FF24BDDED0FC375CDD2EE5AB79A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FMDB;
+			target = 251BAD17812F7EBF6532EACF66F941C3 /* FMDB */;
+			targetProxy = A5F9544EBCBF6ECB9375D0553D116EA6 /* PBXContainerItemProxy */;
+		};
+		CF579B3F53DBC76A865DFBD81059701F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZKNetwork;
+			target = FDD8E7653DE13FE89BB8C451EA72BB8D /* ZKNetwork */;
+			targetProxy = C23D23C3EB7A616587C05C9ED7276F95 /* PBXContainerItemProxy */;
+		};
+		DD09078F3037E43A1794EEDA986EA04C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FMDB;
+			target = 251BAD17812F7EBF6532EACF66F941C3 /* FMDB */;
+			targetProxy = BD92F708338707B66DAB6DA0E3B07B3B /* PBXContainerItemProxy */;
+		};
+		DDEC8E1FF937B3402C2F4F9995179E28 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZKNetwork;
+			target = FDD8E7653DE13FE89BB8C451EA72BB8D /* ZKNetwork */;
+			targetProxy = D22F1E3189FE28C5F93BB96B306E8BD9 /* PBXContainerItemProxy */;
+		};
+		E2E66E33544DC8C13A1A6C80F3B26F85 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GCDWebServer;
+			target = 1252D2FE5A3F0266E8959BB670344352 /* GCDWebServer */;
+			targetProxy = CF623BAF72A3821546F42DCE4433C2CA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		287E24660AB51AB17306D246E257CD85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4FB39BFF2800ECE7CD4D53A3061D39F /* Pods-ZKVideoCache_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ZKVideoCache_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZKVideoCache_Tests/Pods-ZKVideoCache_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ZKVideoCache_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		310533C7B42C68D2502D3E547AABD32A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94D0754D98339178551279CABDAB2CE4 /* ZKNetwork.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ZKNetwork/ZKNetwork-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZKNetwork/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ZKNetwork/ZKNetwork.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = ZKNetwork;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		43BFF9DA7F4C8CC42FCA326998F1DE8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10E5CCCB801487F45F68CEBA31E4B813 /* CocoaLumberjack.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CocoaLumberjack/CocoaLumberjack-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CocoaLumberjack/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CocoaLumberjack/CocoaLumberjack.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = CocoaLumberjack;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4FF10BFDA08815FD9720E79FAEAE6110 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 894469E86E8CBB2A94EC83DC27A80416 /* ZKVideoCache.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ZKVideoCache/ZKVideoCache-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZKVideoCache/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ZKVideoCache/ZKVideoCache.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = ZKVideoCache;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5A419B7FADAC0A4E730FC56C894A63BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF642FE9EF507B015FF46AC4D22E244E /* Pods-ZKVideoCache_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ZKVideoCache_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZKVideoCache_Example/Pods-ZKVideoCache_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ZKVideoCache_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		632D80968E139DAB18FF0F403A9268E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DBBB6FC8FBD765334F34A92A10A43FA /* GCDWebServer.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GCDWebServer/GCDWebServer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GCDWebServer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GCDWebServer/GCDWebServer.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = GCDWebServer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6E7953CB0A167F6F41F5726CCE45741A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E441BB9FF602710F4962083F2E87B5B6 /* Pods-ZKVideoCache_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ZKVideoCache_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZKVideoCache_Tests/Pods-ZKVideoCache_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ZKVideoCache_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		88116CC0B441A8A3BA358CBFA97E4AEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B566B6A6E6E844764A18B5F51175FEA /* FMDB.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FMDB/FMDB-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FMDB/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FMDB/FMDB.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = FMDB;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8DED8AD26D381A6ACFF202E5217EC498 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		95D0A865FB5D4AD67F83752147213357 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10E5CCCB801487F45F68CEBA31E4B813 /* CocoaLumberjack.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CocoaLumberjack/CocoaLumberjack-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CocoaLumberjack/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CocoaLumberjack/CocoaLumberjack.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = CocoaLumberjack;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9E1E4E48AF2EAB23169E611BF694090A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B18C4E99CB428BD3166C490483460666 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DBBB6FC8FBD765334F34A92A10A43FA /* GCDWebServer.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GCDWebServer/GCDWebServer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GCDWebServer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GCDWebServer/GCDWebServer.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = GCDWebServer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E4BE7AA081A15D56EC48081EC1A839A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 894469E86E8CBB2A94EC83DC27A80416 /* ZKVideoCache.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ZKVideoCache/ZKVideoCache-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZKVideoCache/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ZKVideoCache/ZKVideoCache.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = ZKVideoCache;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E974276EB2962A1D3576D27F8B29A765 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94D0754D98339178551279CABDAB2CE4 /* ZKNetwork.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ZKNetwork/ZKNetwork-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZKNetwork/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ZKNetwork/ZKNetwork.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = ZKNetwork;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F8A0E8091DC7B5D006D27BCED974836D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFEF1B65984F9FC3F8BF5DADF78BA07D /* Pods-ZKVideoCache_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ZKVideoCache_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZKVideoCache_Example/Pods-ZKVideoCache_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ZKVideoCache_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FE622DC232237B3E91BF1E7BAA5A3A0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B566B6A6E6E844764A18B5F51175FEA /* FMDB.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FMDB/FMDB-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FMDB/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FMDB/FMDB.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = FMDB;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E1E4E48AF2EAB23169E611BF694090A /* Debug */,
+				8DED8AD26D381A6ACFF202E5217EC498 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		364E7D3FB342C230DE20D97A23457982 /* Build configuration list for PBXNativeTarget "ZKVideoCache" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4BE7AA081A15D56EC48081EC1A839A8 /* Debug */,
+				4FF10BFDA08815FD9720E79FAEAE6110 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41F4D36572763B40C3A8B1A51F58E3A0 /* Build configuration list for PBXNativeTarget "GCDWebServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				632D80968E139DAB18FF0F403A9268E8 /* Debug */,
+				B18C4E99CB428BD3166C490483460666 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B0566FF0CE681AC326D316CEC45A8CF /* Build configuration list for PBXNativeTarget "FMDB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE622DC232237B3E91BF1E7BAA5A3A0D /* Debug */,
+				88116CC0B441A8A3BA358CBFA97E4AEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65AE3CBA2CB26719EB186BE04580ECB0 /* Build configuration list for PBXNativeTarget "Pods-ZKVideoCache_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				287E24660AB51AB17306D246E257CD85 /* Debug */,
+				6E7953CB0A167F6F41F5726CCE45741A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BF7E24503AD05686214582F6F41B57E /* Build configuration list for PBXNativeTarget "Pods-ZKVideoCache_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8A0E8091DC7B5D006D27BCED974836D /* Debug */,
+				5A419B7FADAC0A4E730FC56C894A63BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B05DE85C52C8A1A6E165B173FA579C37 /* Build configuration list for PBXNativeTarget "ZKNetwork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				310533C7B42C68D2502D3E547AABD32A /* Debug */,
+				E974276EB2962A1D3576D27F8B29A765 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5B6D5A601701FB211DE1B97A7F7A291 /* Build configuration list for PBXNativeTarget "CocoaLumberjack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95D0A865FB5D4AD67F83752147213357 /* Debug */,
+				43BFF9DA7F4C8CC42FCA326998F1DE8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'ZKVideoCache'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of ZKVideoCache.'
+  s.summary          = 'Use GCDWebServer to serve video request for m3u8 file request, support for mp4 is on the way'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+Use GCDWebServer to serve video request for m3u8 file request, support for mp4 is on the way
                        DESC
 
   s.homepage         = 'https://github.com/bestofsong/ZKVideoCache'
@@ -38,5 +38,7 @@ TODO: Add long description of the pod here.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+
+  s.dependency 'GCDWebServer'
+  s.dependency 'ZKNetwork'
 end

@@ -1,0 +1,6 @@
+framework module Pods_ZKVideoCache_Example {
+  umbrella header "Pods-ZKVideoCache_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
